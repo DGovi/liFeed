@@ -7,14 +7,18 @@
     		<img src="https://instagram.fymy1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/84064213_555267885069521_5343758430911856640_n.jpg?_nc_ht=instagram.fymy1-1.fna.fbcdn.net&_nc_ohc=lf95ktFeAWkAX_7Hu8P&oh=5161a523452f593b3d6b0d3066e7ca4b&oe=5EE3D930" class="rounded-circle" alt = "profile pic">
     	</div>
         <div class= "col-9 pt-5">
-            <div><h1>spidermandaniel</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{$user->username}}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div class = "pr-5"><strong>13</strong> posts</div>
                 <div class = "pr-5"><strong>245</strong> followers</div>
                 <div class = "pr-5"><strong>262</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold"> Daniel Gauvin</div>
-            <div> 🇨🇦 🇨🇳 | 22| Montreal | ConU | 7'3"maybe</div>
+            <div class="pt-4 font-weight-bold"> {{$user->profile->title}}</div>
+            <div> {{$user->profile->description}}</div>
+            <div> <a href="#">  {{$user->profile->url ?? 'unavailable'}}</a></div>
         </div>
         <div class="row pt-5">
             <div class="col-4">
