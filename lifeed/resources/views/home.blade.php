@@ -12,9 +12,7 @@
                 <div class="pr-5"><strong>some number</strong> posts</div>
                 <div class="pr-5"><strong> sme number</strong> followers</div>
                 <div class="pr-5"><strong>some number</strong>following</div>
-            </div>
         </div>
     </div>
-
 </div>
 @endsection
