@@ -14,8 +14,9 @@
                 <div class="pr-5"><strong> sme number</strong> followers</div>
                 <div class="pr-5"><strong>some number</strong>following</div>
             </div>
-            <div class="pt-4"><strong>Daniel Gauvin</strong></div>
-            <div>This is my Bio</div>
+            <div class="pt-4"><strong>{{ $user->profile->title }}</strong></div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="#">{{$user->profile->url}}</a></div>
         </div>
     </div>
     <div class="row pt-4">
