@@ -8,7 +8,7 @@
         </div>
 
         <div class="row-9 pt-5">
-            <div><h1>spiderdan</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>some number</strong> posts</div>
                 <div class="pr-5"><strong> sme number</strong> followers</div>
