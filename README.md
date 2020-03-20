@@ -32,3 +32,4 @@ For any reason, if you need to restart the box,
 
 
 when making changes to code, if there are any changes on the front end: npm run dev
+once per project, there needs to be smthg that stores the pictures: php artisan storage:link
