@@ -26,7 +26,7 @@
                            autocomplete="caption" autofocus>
 
                     @error('caption')
-                            <strong>{{ $errors->first('caption') }}</strong>
+                    <strong>{{ $errors->first('caption') }}</strong>
                     @enderror
 
                 </div>
